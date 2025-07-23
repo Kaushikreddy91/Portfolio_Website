@@ -90,6 +90,7 @@ export const PROJECTS = [
     `Developed a interactive content library, ensuring timely access to newly published materials. Created
     an alert system to send email at regular intervals to the users to inform about new content.`,
     technologies: ["Java", "SpringBoot", "React", "SQL"],
+    link:null,
   },
   {
     title: "Camp Reviews",
@@ -98,6 +99,7 @@ export const PROJECTS = [
       `Engineered a social media application for users to post and view campgrounds and comments. Enabled CRUD
       operations for posts and comments.`,
     technologies: ["HTML", "CSS", "Javascript", "Node.js", "MongoDB"],
+    link: "https://github.com/Kaushikreddy91/Camp-Review",
   },
   {
     title: "Portfolio Website",
@@ -105,6 +107,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    link:"https://github.com/Kaushikreddy91/Portfolio_Website",
   },
   {
     title: "E-Commerce Website",
@@ -112,6 +115,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    link: "https://github.com/Kaushikreddy91/Online-shopping-application",
   },
 ];
 
