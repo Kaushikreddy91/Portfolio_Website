@@ -38,7 +38,7 @@ const Hero = () => {
                             animate="visible"
                             className="my-1 max-w-xl py-3 font-light tracking-tighter">
                         <a
-                            href="https://drive.google.com/file/d/1Tvfb7127m5OUriZZahWIkYXkkG-Kkcz6/view"
+                            href="https://drive.google.com/file/d/1LdmpclLggSxBLkCTjAj3LvPd5xDjrXfl/view"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-[16px] px-5 py-3 font-medium rounded-md border border-neutral-700 bg-white text-neutral-700 transition-colors duration-300 hover:bg-black hover:text-white"
