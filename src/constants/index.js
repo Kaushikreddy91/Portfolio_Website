@@ -4,14 +4,14 @@ import project3 from "../assets/portfolio.png";
 import project4 from "../assets/ecommerce.png";
 
 export const HERO_CONTENT = `I am an enthusiastic full-stack developer with a knack for building 
-scalable and high-performance web applications. With over 2 years of experience in the software 
+scalable and high-performance web applications. With over 3 years of experience in the software 
 industry, I’ve developed expertise in technologies like Java, Spring Boot, AWS, React, Angular, 
 and MySQL. My goal is to leverage my skills in full-stack development, cloud technologies, and system 
  design to create innovative solutions that solve real-world problems and deliver exceptional 
  user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full-stack developer with a strong focus 
-on building efficient, scalable, and user-centric web applications. With over 2 years of professional 
+on building efficient, scalable, and user-centric web applications. With over 3 years of professional 
 experience, I’ve worked extensively with technologies like Java, Spring Boot, React, Angular, MySQL, 
 and AWS.
 
@@ -25,29 +25,42 @@ skills, and staying engaged with the latest trends in software architecture and 
 
 export const EXPERIENCES = [
   {
-    year: "March 2024 - Present",
-    role: "Software Development Engineer",
+    year: "December 2025 - Present",
+    role: "Associate Software Development Engineer 2",
+    company: "Publicis Sapient",
+    description: `Developed a GenAI-powered React test case generation solution for Optum’s RxClaims PBM
+     modernization MVP, reducing manual testing effort by 70% using prompt engineering, GitHub Copilot, and 
+     Microsoft Foundry. Contributed to modernization of Optum RxMAX healthcare applications by converting 
+     legacy screens into scalable React and Spring Boot solutions, leveraging AI-assisted development tools 
+     to accelerate migration and improve maintainability. Worked in an Agile Scrum environment collaborating 
+     with cross-functional teams to deliver enterprise healthcare features, enhance UI consistency, resolve 
+     modernization issues, and streamline frontend development workflows.`,
+    technologies: ["Java", "SpringBoot", "React.js", "MySQL"],
+  },
+  {
+    year: "March 2024 - December 2025",
+    role: "Software Engineer (Analyst)",
     company: "ISS-STOXX",
     description: `Collaborated with cross-functional teams to strategize and build a content browsing 
     application. Implemented a CRON-based email alert system that automated user notifications 
     and emails, resulting in a 40% increase in engagement with the Content Library based on user 
     subscription preferences.This role strengthened my backend development skills and reinforced the importance of aligning technical solutions with user behavior.`,
-    technologies: ["Java", "AWS", "SpringBoot", "React.js", "mySQL"],
+    technologies: ["Java", "AWS", "SpringBoot", "React.js", "MySQL"],
   },
   {
     year: "July 2023 - March 2024",
-    role: "Junior Developer",
+    role: "Junior Software Engineer",
     company: "ISS-STOXX",
     description: ` I contributed to enhancing the internal Vote Disclosure System by designing 
     and implementing file upload functionality and building efficient data parsers, which significantly 
     improved the application's responsiveness. Working closely with a diverse team, 
     I consistently met deadlines and project goals, demonstrating strong communication skills, 
     adaptability, and a collaborative mindset`,
-    technologies: ["Java", "SpringBoot", "React.js", "mySQL"],
+    technologies: ["Java", "SpringBoot", "React.js", "MySQL"],
   },
   {
     year: "January 2023 - June 2023",
-    role: "Intern",
+    role: "Software Engineering Intern",
     company: "ISS-STOXX",
     description: `Spearheaded the development and migration of an internal Vote Disclosure System 
     using Java Spring Boot and Angular, significantly improving performance and modernizing the UI. 
@@ -55,7 +68,7 @@ export const EXPERIENCES = [
     user experience by integrating Angular frameworks and the Ag-Grid library. 
     This project also showcased my ability to quickly learn new technologies, 
     gaining proficiency in Angular and Spring Boot.`,
-    technologies: ["Java", "SpringBoot", "Angular", "mySQL"],
+    technologies: ["Java", "SpringBoot", "Angular", "MySQL"],
   }
 ];
 
@@ -120,7 +133,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Goregaon East, Mumbai",
+  address: "Hyderabad, Telangana",
   phoneNo: "+91 6309978025",
   email: "kaushikreddy002@gmail.com",
 };
